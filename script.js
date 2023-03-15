@@ -11,7 +11,7 @@ fetch('https://striveschool-api.herokuapp.com/books')
             <div class="card m-3" style="min-height: 600px; max-height: 600px;">
             <img style="min-height: 300px; max-height: 300px;" src="${books.img}" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">${books.title}</h5>
+                    <h5 style="height: 160px;" class="card-title">${books.title}</h5>
                     <p class="card-text">${books.price} $</p>
                     <button id="btn" class="btn btn-primary">Scarta</button>
                 </div>
