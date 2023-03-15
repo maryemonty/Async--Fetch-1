@@ -16,6 +16,11 @@ fetch('https://striveschool-api.herokuapp.com/books')
                     <button id="btn" class="btn btn-primary">Scarta</button>
                 </div>
             </div>`
+
+            const discard = col.querySelector('#btn')
+            discard.onclick = () => {
+                col.remove()
+            }
             grid.append(col)
         });
     })
